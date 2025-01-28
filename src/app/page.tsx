@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import Head from 'next/head';
 import Header from './components/Header';
-import { allCategories } from './data/categories';
+
 
 type Calculator = {
   id: number;
